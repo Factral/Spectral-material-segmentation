@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RP9GEVCQDE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RP9GEVCQDE');
+  </script>
+
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Material segmentation with embedded spectral information from RGB-D imagery, presented at CVPRW 2024. Novel deep learning framework for high-fidelity segmentation using standard devices.">
+  <meta property="og:title" content="Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery"/>
+  <meta property="og:title" content="Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery"/>
+  <meta property="og:url" content="factral.github.io/spectral-material-segemntation"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/forward.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery">  
+  <meta name="twitter:description" content="website for the CVPRW 2024 presentation of the conference paper">
+  <meta name="twitter:description" content="Material segmentation with embedded spectral information from RGB-D imagery, presented at CVPRW 2024. Novel deep learning framework for high-fidelity segmentation using standard devices.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/forward.png"> 
+   <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="material segmentation, spectral information, RGB-D imagery, deep learning, CVPRW 2024, computer vision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://github.com/Factral/" target="_blank">Fabian Perez</a>,</span>
+                <span class="author-block">
+                  <a href="https://github.com/hfarueda/" target="_blank">Hoover Rueda-Chacón</a></span>
+              
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Universidad Industrial de Santander, Colombia<br>CVPR latinx 2024</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="#" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <img src="static/images/cvf.png" alt="Computer vision foundation" style="height: 1.3em;"> <!-- Adjust the height as necessary -->
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Factral/spectral-material-segmentation" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/framework.png" alt="Descriptive Text" style="width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        Illustration of the proposed framework utilizing the Spectral Feature Mapper (SFM) layer for RGB-D images. An off-the-shelf device captures an RGB-D image, which is then processed by an encoder-decoder network producing a hyperspectral reconstruction. This reconstruction is operated on by the SFM layer using learned spectral embeddings to achieve material segmentation. Furthermore, a segmented point cloud is generated leveraging the acquired depth data.    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In the realm of computer vision, material segmentation of natural scenes represents a challenge, driven by the complex and diverse appearances of materials. Traditional approaches often rely on RGB images, which can be deceptive given the variability in appearances due to different lighting conditions. Other methods, that employ polarization or spectral imagery, offer a more reliable material differentiation but their cost and accessibility restrict their everyday usage. 
+            
+          </p>
+          <p>
+            In this work, we propose a deep learning framework that bridges the gap between high-fidelity material segmentation and the practical constraints of data acquisition. Our approach leverages a training strategy that employs a paired RGBD-spectral data to incorporate spectral information directly within the neural network. This encoding process is facilitated by a Spectral Feature Mapper (SFM) layer, a novel module that embeds unique spectral characteristics into the network, thus enabling the network to infer materials from standard RGB-D images. 
+          </p>
+          <p>
+            Once trained, the model allows to conduct material segmentation on widely available devices without the need for direct spectral data input. In addition, we generate the 3D point cloud from the RGB-D image pair, to provide a richer spatial context for scene understanding. Through simulations using available datasets, and real experiments conducted with an iPad Pro, our method demonstrates superior performance in material segmentation compared to other methods
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Video Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video</h2>
+      <!-- Autoplay video here -->
+      <video controls loop width="100%">
+        <source src="static/videos/perez_video_24.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+<!-- End Video Section -->
+
+
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Deformable Operators Section -->
+      <h2 class="title is-3">Spectral Feature Mapper</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <p>
+            We introduce the SFM layer, this layer is designed to universally enhance encoder-decoder architectures 
+          </p>
+          <br>
+          <img src="static/images/SFM.png" alt="Deformable Operators" style="max-width: 80%; height: auto;">
+          <p class="subtitle">
+            The Spectral Feature Mapper (SFM) module plays a crucial role in analyzing hyperspectral data. The module uses a learnable parameters matrix of size \(C \times B\), where \(C\) is the number of classes and \(B\) is the number of spectral bands. By comparing the spectral signatures of each pixel in the hyperspectral cube, the module calculates the spectral angles to determine similarity. Smaller angles indicate higher similarity, which translates into higher probability for a given class after applying the softmax function. This process results in a probability cube, providing a class mask for each class across the entire image.
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Deformable Operators Section -->
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/perez_poster_24.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{Perez2024BeyondAppearances,
+        author={Perez, Fabian and Hoover, Rueda-Chacón},
+        booktitle={CVPRW 2024}, 
+        title={Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery},
+        year={2024},
+        keywords={material segmentation, RGB-D imagery, spectral information, deep learning}
+      }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+  </html>
