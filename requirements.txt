@@ -1,0 +1,14 @@
+einops
+spectral
+torch
+torchvision
+tqdm
+opencv-python
+pillow
+wandb
+torchmetrics
+segmentation-models-pytorch
+h5py
+pytorch_toolbelt
+albumentations
+scikit-learn
