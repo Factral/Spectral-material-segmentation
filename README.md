@@ -21,6 +21,9 @@ In this work, **we propose a deep learning framework that bridges the gap betwee
 
 Once trained, the model allows to conduct material segmentation on widely available devices without the need for direct spectral data input. In addition, we generate the 3D point cloud from the RGB-D image pair, to provide a richer spatial context for scene understanding. Through simulations using available datasets, and real experiments conducted with an *iPad Pro*, our method demonstrates superior performance in material segmentation compared to other methods
 
+Link video [https://www.youtube.com/watch?v=PcgtDNqanZ4](https://www.youtube.com/watch?v=PcgtDNqanZ4)
+
+Link webpage + poster [https://factral.co/Spectral-material-segmentation/](https://factral.co/Spectral-material-segmentation/)
 
 ## Features
 
